@@ -254,3 +254,40 @@
   color: #baffc9;
   text-align: center;
 }
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 10px;
+  }
+
+  .contact-info, .contact-form {
+    padding: 0;
+    width: 100%;
+  }
+
+  .contact-title {
+    font-size: 2rem;
+  }
+
+  .contact-info h3 {
+    font-size: 1.5rem;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 0.9rem;
+  }
+
+  .contact-form button {
+    width: 100%;
+    text-align: center;
+  }
+}
