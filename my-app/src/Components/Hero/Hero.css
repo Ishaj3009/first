@@ -86,3 +86,8 @@
     font-size: 0.95rem;
   }
 }
+
+
+.hero-section {
+  padding-top: 80px; /* Adjust value as needed */
+}
