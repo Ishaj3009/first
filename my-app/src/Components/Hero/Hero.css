@@ -34,7 +34,7 @@
 }
 
 /* Responsive layout for mobile */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .hero-wrapper {
     flex-direction: column;
     text-align: center;
@@ -54,7 +54,7 @@
   display: inline-block;
   animation: wave-animation 2s infinite;
   transform-origin: 70% 70%;
-}
+} */
 
 /* Keyframes for waving effect */
 @keyframes wave-animation {
@@ -66,4 +66,23 @@
   50% { transform: rotate(10deg); }
   60% { transform: rotate(0deg); }
   100% { transform: rotate(0deg); }
+}
+
+/* ✨ Extra small screens (phones < 480px) */
+@media screen and (max-width: 480px) {
+  .hero {
+    padding: 1rem 0.5rem;
+  }
+
+  .hero-image {
+    max-width: 200px;
+  }
+
+  .hero-left h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-left p {
+    font-size: 0.95rem;
+  }
 }
