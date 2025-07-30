@@ -437,3 +437,57 @@ h3 {
 section {
   scroll-margin-top: 100px; /* Adjust this value to match your navbar height */
 }
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  main.row {
+    grid-template-columns: 1fr;
+    grid-row-gap: 20px;
+  }
+
+  .skills-section {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skill-box {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+  }
+
+  .skill-box img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .about-text {
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .projectRow1, .projectRow2, .projectrow3 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projectCard {
+    width: 90%;
+  }
+
+  .title h2 {
+    font-size: 1.8rem;
+  }
+
+  .box h3 {
+    font-size: 1.2rem;
+  }
+
+  .box p {
+    font-size: 0.95rem;
+  }
+}
