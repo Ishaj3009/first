@@ -188,34 +188,17 @@
 } */
 
 
-@media (max-width: 768px) {
-  .Navbar {
-    flex-direction: column;
-    padding: 1rem;
-  }
 
-  .nav-menu {
-    flex-direction: row;       /* Make them stay side-by-side */
-    flex-wrap: wrap;           /* Wrap if screen too small */
-    justify-content: center;
-    gap: 1rem;
-    margin-top: 1rem;
-  }
-
-  .nav-connect {
-    margin-top: 1rem;
-  }
-}
 @media screen and (max-width: 768px) {
   .navbar {
     flex-direction: column;
     height: auto;
-    padding: 0.8rem 1rem;
+    padding: 0.5rem 0.5rem;
   }
 
   .navbar ul {
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
+    gap: 0.5rem;
   }
 }
