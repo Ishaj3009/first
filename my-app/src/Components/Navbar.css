@@ -155,7 +155,7 @@
     word-wrap: break-word;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 } */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .Navbar {
     flex-direction: column;
     align-items: center;
@@ -184,5 +184,25 @@
   .connect-btn {
     padding: 0.6rem 1.2rem;
     font-size: 0.9rem;
+  }
+} */
+
+
+@media (max-width: 768px) {
+  .Navbar {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .nav-menu {
+    flex-direction: row;       /* Make them stay side-by-side */
+    flex-wrap: wrap;           /* Wrap if screen too small */
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .nav-connect {
+    margin-top: 1rem;
   }
 }
