@@ -70,3 +70,22 @@ body {
   padding: 0.6rem;
   cursor: pointer;
 } */
+
+
+
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  #root {
+    padding: 1rem;
+  }
+
+  .logo {
+    height: 4em;
+    padding: 1em;
+  }
+
+  .card {
+    padding: 1.5em;
+  }
+}
